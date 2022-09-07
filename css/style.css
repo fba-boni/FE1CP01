@@ -53,12 +53,12 @@ h1{
 section{
     display: flex;
     justify-content: center;
-    height: 900px;
+    height: 700px;
 }
 
 .card{
     width: 300px;
-    height: 500px;
+    height: 400px;
     margin-left: 30px;
     text-align: center;
     border: solid 3px blue;
@@ -90,8 +90,18 @@ section{
     background-image: url(/img/fundofitinhas.png);
     background-repeat: no-repeat;
     background-size: 300px;
+    text-align: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
 }
-
+.fitinhas iframe{
+    width: 560px;
+    height: 315px;
+    position: absolute;
+    margin-top: -200px;
+    margin-left: 0px;
+}
 footer{
     background-color: #FED001;
     display: flex;
