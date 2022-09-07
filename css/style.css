@@ -60,9 +60,9 @@ section{
     width: 300px;
     height: 500px;
     margin-left: 30px;
-    text-align: justify;
+    text-align: center;
     border: solid 3px blue;
-    padding: 10px;
+    padding: 5px;
 }
 
 .card .bg1, .bg2, .bg3{
@@ -83,6 +83,33 @@ section{
     background-image: url(/img/CURIOSIDADES3.png);
 }
 
+.fitinhas{
+    height: 300px;
+    width: 100%;
+    border: solid 3px blue;
+    background-image: url(/img/fundofitinhas.png);
+    background-repeat: no-repeat;
+    background-size: 300px;
+}
+
 footer{
+    background-color: #FED001;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    padding: 0px 40px;
+}
+
+footer ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin-right: 40px;
+    font-size: 1.15rem;
+}
+
+footer ul li{
+    padding: 20px;
+    text-align: center;
 }
