@@ -6,7 +6,7 @@
 }
 
 body{
-    background-image: url(/img/banner.jpg);
+    background-image: url(../img/banner.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
 }
@@ -90,21 +90,21 @@ section{
 }
 
 .bg1{
-    background-image: url(/img/CURIOSIDADES1.png);
+    background-image: url(../img/CURIOSIDADES1.png);
 }
 
 .bg2{
-    background-image: url(/img/CURIOSIDADES2.png);
+    background-image: url(../img/CURIOSIDADES2.png);
 }
 
 .bg3{
-    background-image: url(/img/CURIOSIDADES3.png);
+    background-image: url(../img/CURIOSIDADES3.png);
 }
 
 .fitinhas{
     height: 400px;
     width: 100%;
-    background-image: url(/img/fundofitinhas.png);
+    background-image: url(../img/fundofitinhas.png);
     background-repeat: no-repeat;
     background-size: 350px;
     background-color: #FED001;
@@ -144,4 +144,3 @@ footer ul li{
     padding: 20px;
     text-align: center;
 }
-
